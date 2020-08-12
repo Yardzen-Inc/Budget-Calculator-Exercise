@@ -12,7 +12,7 @@ Use the included seeds.json file to seed a database of your choice and design. C
 
 Please explain your architecture choices in a file exercise.md and commit with your code.
 
-You will be judged based on the quality of your solution's user interface, backend architecture, code quality, and code modularity. This excersize is inherently full stack, so we expect to see prowess on the front and back end. We are not expecting to see things like a robust authentication system, strict security practices, or anything too complicated. That being said, feel free to have fun and take this project in any direction you would like granted you meet the basic requirements listed above. Feel free to bootstrap the react application however you pleese.
+You will be judged based on the quality of your solution's user interface, backend architecture, code quality, and code modularity. This excersize is inherently full stack, so we expect to see prowess on the front and back end. We are not expecting to see things like a robust authentication system, strict security practices, or anything too complicated; however, we would like you to explain your thoughts on this topic relating to a real world deploy scenario of an application like that of this exercise in exercise.md as well. That being said, feel free to have fun and take this project in any direction you would like granted you meet the basic requirements listed above. Feel free to bootstrap the react application however you pleese.
 
 Bonus points for using typecript to output any javascript code you produce.
 Bonus points for tests.
