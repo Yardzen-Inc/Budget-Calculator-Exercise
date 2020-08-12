@@ -17,7 +17,7 @@ You will be judged based on the quality of your solution's user interface, backe
 Bonus points for using typecript to output any javascript code you produce.
 Bonus points for tests.
 
-The rest is up to you, but a good solution should not require the reviewer to perform time intensive setup tasks, like standing up a local sequel database. We reccomend that you use tools like docker/docker-compose to make the process of running the app simple and predictable.
+The rest is up to you, but a good solution should not require the reviewer to perform time intensive setup tasks, like standing up a local sequel database. We recommend that you use tools like docker/docker-compose to make the process of running the app simple and predictable.
 
 ## Tips
 
