@@ -74,19 +74,19 @@
     },
     {
       "type": "LIGHTING",
-      "name": "3-5",
+      "name": "Hanging lights",
       "lowPrice": 50000,
       "highPrice": 100000
     },
     {
       "type": "LIGHTING",
-      "name": "6-15",
+      "name": "Ground Lights",
       "lowPrice": 60000,
       "highPrice": 150000
     },
     {
       "type": "LIGHTING",
-      "name": "16+",
+      "name": "Lanterns",
       "lowPrice": 150000,
       "highPrice": 3000000
     },

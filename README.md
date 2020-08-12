@@ -4,23 +4,20 @@ As clients move through the yardzen onboarding process, issues commonly arise ar
 
 ## Prompt
 
-Create a simple Budget calculator/checklist using React and firebase. What we're looking for a react app that first takes a numerical "budget" input, and then presents the user with a page full of multiple select components, as well as an upper and lower range budget calculated from the items a user has selected.
+Create a simple Budget calculator/checklist using React and an api of your design. We're looking for a react app that first takes a numerical "budget" input, and then presents the user with a 'checklist' page. On said page, the client should be able to select any number of line items descibed in the seeds.json file. When selected, each item should add to a total estimated project cost, which should be visible to the client at all times. The estimate should be displayed as a range as opposed to a discrete value, the high and low end of which should be calculated from the `highPrice` and `lowPrice` present on each checklist item described in the seed file. The client application should provide feedback to the user based on a comparison between their target budget and the range provided by the low and high prices of their selected items (over budget, under budget, within range, etc.).
 
-The application boiler plate is a 'create-react-app' with firebase initialized in src/index.js. You _will not_ have to create a firebase project or do any setup aside from running `npm install`. The demo firestore database has no access controll, no authentication needed.
+Items should be shown on the page in groups associated by their `type` property. After completion the user should be able to submit their selection, upon which they will be brought to a page that confirms that they have completed the process. This page should also show a summary of the options they chose and the related budgeting information.
 
-## Goals
+Use the included seeds.json file to seed a database of your choice and design. Construct an api that serves the information stored in said database to your client application. This api should also be capable of recieving and storing the user's checklist selection on submission. Serving seeds.json to the client application directly is against the rules. We would prefer that you use one of the following programming languages for the api code: Typscript, Golang, Python.
 
-1. Start the user experience by asking the client to enter a budget for their project.
-2. Query budget checklist items from the firebase firestore collection "items".
-3. Display items in a checklist grouped by type (see item interface below). Each section should allow one or none of the items of that type to be selected/checked at a time.
-4. Every item has a lowPrice and a highPrice. This should be used to calculate and display a price range somewhere on the screen.
-5. The application should give the user feedback depending on how well the items they have selected fit into their budget, ie: letting the user know if their budget falls below the minimum bounds of the estimate, if their budget is above the upper bound, etc.
+You will be judged based on the quality of your solution's user interface, backend architecture, code quality, and code modularity. This excersize is inherently full stack, so we expect to see prowess on the front and back end. We are not expecting to see things like a robust authentication system, strict security practices, or anything too complicated. That being said, feel free to have fun and take this project in any direction you would like granted you meet the basic requirements listed above. Feel free to bootstrap the react application however you pleese.
 
-(bonus): Add functionality that allows the client to submit the checklist. Store this information however you like in firestore, but DO NOT modify the items collection. Multiple candidates may be working from this database at the same time, so please prefix any collections that you use or create in the database with your first and last name, ie `benjaminRoseChecklistResults`
+Bonus points for using typecript to output any javascript code you produce.
+Bonus points tests.
+
+The rest is up to you, but a good solution should not require the reviewer to perform time intensive setup tasks, like standing up a local sequel database. We reccomend that you use tools like docker/docker-compose to make the process of running the app simple and predictable.
 
 ## Tips
-
-- All boiler plate code is provided, no setup will have to be done to authenticate with firebase.
 
 - the _items_ look like this:
 
@@ -43,5 +40,5 @@ interface Item {
 - An understanding of react in general.
 - Use of modular components.
 - Functional components that utilize hooks.
-- Code comments explaining your thought process.
+- Some sort of documentation
 - state management with react built in functionality only (no redux).
