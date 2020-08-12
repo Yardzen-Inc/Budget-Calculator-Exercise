@@ -8,13 +8,13 @@ Create a simple Budget calculator/checklist using React and an API of your desig
 
 Items should be shown on the page in groups associated by their `type` property. After completion the user should be able to submit their selection, upon which they will be brought to a page that confirms that they have completed the process. This page should also show a summary of the options they chose and the related budgeting information.
 
-Use the included seeds.json file to seed a database of your choice and design. Construct an API that serves the information stored in said database to your client application. This API should also be capable of recieving and storing the user's checklist selection on submission. Serving seeds.json to the client application directly is against the rules. We would prefer that you use one of the following programming languages for the API code: Typscript, Golang, Python.
+Use the included seeds.json file to seed a database of your choice and design. Construct an API that serves the information stored in said database to your client application. This API should also be capable of recieving and storing the user's checklist selection on submission. Serving seeds.json to the client application directly is against the rules. We would prefer that you use one of the following programming languages for the API code: TypeScript, Golang, Python.
 
 Please explain your architecture choices in a file exercise.md and commit with your code.
 
 You will be judged based on the quality of your solution's user interface, backend architecture, code quality, and code modularity. This excersize is inherently full stack, so we expect to see prowess on the front and back end. We are not expecting to see things like a robust authentication system, strict security practices, or anything too complicated; however, we would like you to explain your thoughts on this topic relating to a real world deploy scenario of an application like that of this exercise in exercise.md as well. That being said, feel free to have fun and take this project in any direction you would like granted you meet the basic requirements listed above. Feel free to bootstrap the react application however you pleese.
 
-Bonus points for using typecript to output any javascript code you produce.
+Bonus points for using typecript to output any JavaScript code you produce.
 Bonus points for tests.
 
 The rest is up to you, but a good solution should not require the reviewer to perform time intensive setup tasks, like standing up a local sequel database. We recommend that you use tools like docker/docker-compose to make the process of running the app simple and predictable.
